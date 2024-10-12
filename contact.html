@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindphin Canada Inc. - Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(90deg, #4F46E5, #7C3AED);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-100">
+    <header class="gradient-bg text-white">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="/api/placeholder/150/50" alt="Mindphin Logo" class="h-8 w-auto mr-3">
+                <span class="font-bold text-xl">Mindphin Canada Inc.</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="index.html" class="hover:text-gray-200">Home</a>
+                <a href="services.html" class="hover:text-gray-200">Services</a>
+                <a href="about.html" class="hover:text-gray-200">About</a>
+                <a href="contact.html" class="hover:text-gray-200">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-20">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold mb-8 text-center">Contact Us</h1>
+            
+            <div class="bg-white rounded-lg shadow-md p-8 max-w-2xl mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block mb-2 font-semibold">Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 font-semibold">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 font-semibold">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full p-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block mb-2 font-semibold">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">Send Message</button>
+                </form>
+            </div>
+
+            <div class="mt-16 text-center">
+                <h2 class="text-2xl font-bold mb-4">Other Ways to Reach Us</h2>
+                <div class="space-y-4">
+                    <p>
+                        <i class="fas fa-envelope text-indigo-600 mr-2"></i>
+                        Email: <a href="mailto:canada@mindphin.com" class="text-indigo-600 hover:underline">canada@mindphin.com</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone text-indigo-600 mr-2"></i>
+                        Phone: +1 306 341 0891
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt text-indigo-600 mr-2"></i>
+                        Address: 3837 Luther Place, 8th street east, Saskatoon, Saskatchewan S7H 4B1
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-2">Mindphin Canada Inc.</h3>
+                    <p>Simplifying Complexity, Amplifying Growth.</p>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-2">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                        <li><a href="services.html" class="hover:text-gray-300">Services</a></li>
+                        <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                        <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <h3 class="text-xl font-semibold mb-2">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2024 Mindphin Canada Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
